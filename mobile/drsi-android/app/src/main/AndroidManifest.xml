@@ -3,22 +3,24 @@
     package="com.uasupport.dsri">
 
     <application
-        android:allowBackup="true"
+        android:name=".DSRIApplication"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Dsri">
+
         <activity
-            android:name=".MainActivity"
+            android:name=".DSRIActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.Dsri">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 

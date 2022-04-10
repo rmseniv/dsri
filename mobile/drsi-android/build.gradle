@@ -1,6 +1,18 @@
 buildscript {
     ext {
-        compose_version = '1.0.1'
+        compose_version = '1.1.1'
+        activity_compose_version = '1.4.0'
+        lifecycle_version = '2.4.1'
+        camerax_version = '1.0.2'
+        camerax_view_version = '1.1.0-beta03'
+        camerax_extensions_version = '1.1.0-beta03'
+        hilt_version = '2.41'
+        hilt_compiler_version = '2.38.1'
+        mlkit_barcode_version = '17.0.2'
+    }
+
+    dependencies {
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
     }
 }
 
